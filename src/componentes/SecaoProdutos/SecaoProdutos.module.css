@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.introducao{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.produtos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto{
+    width: 400px;
+    height: 200px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 20px -4px #000000;
+    border-radius: 5px;
+}
+
+.produto .imagem{
+    width: 50%;
+    height: 33.33%;
+}
+
+.lista{
+    text-align: center;
+}
+
+.lista h4{
+    margin-bottom: 20px;
+}
+
+.lista ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+@media screen and (min-width: 1440px){
+    .produtos{
+        width: 1024px;
+    }
+}
